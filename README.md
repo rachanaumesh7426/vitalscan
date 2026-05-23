@@ -1,17 +1,21 @@
-# vitalscan
+# VitalScan
+Smartphone-based multimodal health screening system.
 
-A new Flutter project.
+## What it measures
+- Heart rate (PPG — finger on camera)
+- SpO2 / blood oxygen
+- HRV / stress level  
+- Respiratory rate
+- Voice biomarkers (mic)
+- Gait and tremor (accelerometer)
 
-## Getting Started
+## Status
+Active development. Clinical data collection planned 
+at ESIC government hospital — 100-200 patients.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+Flutter (mobile app), Python (signal processing), 
+OpenCV, NumPy, SciPy, TensorFlow Lite (planned)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Research
+Independent research project with clinical validation.
